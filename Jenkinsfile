@@ -7,7 +7,6 @@ notifyEmail("PASS","marie.salet@autodesk.com")
 def notifyEmail(result, to)
 {
   def subject = "PASS: MDTet"
-  def template_body = readFile('template.html')
   def body = "Hi there, this is a notification that Jenkins has successfully run your stuff."
   // code below sends email using subject and body defined above
   emailext body: body, 
