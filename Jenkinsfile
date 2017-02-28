@@ -3,8 +3,8 @@ echo 'Hello Marie'
  //withCredentials([[$class: 'StringBinding', credentialsId: 'ors_slack_token', variable: 'mytoken']]) 
    // {
         //Sending slack Notification
-    //    slackSend(message: 'test slack Notifier plugin from' + env.JOB_NAME+ '-' + env.BUILD_NUMBER, teamDomain: 'autodesk', token: env.mytoken, channel: '#tech-markdown-github', color: 'good')
-   // }
+        slackSend(message: 'test slack Notifier plugin from' + env.JOB_NAME+ '-' + env.BUILD_NUMBER, teamDomain: 'autodesk', token: 'cqSha357qGjUjyUGvbZDcc', channel: '#tech-markdown-github', color: 'good')
+    //}
 
 notifyEmail("PASS","marie.salet@autodesk.com")
 
