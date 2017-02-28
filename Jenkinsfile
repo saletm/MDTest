@@ -1,6 +1,6 @@
 echo 'Hello Marie'
 
-notifyEmail("PASS","jeremy.carter@autodesk.com;ashley.rutherford@autodesk.com")
+notifyEmail("PASS","marie.salet@autodesk.com")
 
 
 //@NonCPS
